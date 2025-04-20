@@ -40,6 +40,9 @@ Done. Compute took 1.405855 seconds
 ```
 - block_size = 4
 ```
+Done. Compute took 3.593932 seconds
+```
+```
 ==1509791== NVPROF is profiling process 1509791, command: ./matrix_mul_shared_var_thread
 Done. Compute took 3.575321 seconds
 Success!
@@ -61,8 +64,6 @@ Success!
                     0.00%  1.0560us         3     352ns     180ns     687ns  cuDeviceGetCount
                     0.00%     887ns         4     221ns     189ns     312ns  cuDeviceGetUuid
                     0.00%     341ns         1     341ns     341ns     341ns  cuModuleGetLoadingMode
-```
-Done. Compute took 3.593932 seconds
 ```
 - block_size = 1
 ```
@@ -117,3 +118,4 @@ Success!
                     0.00%     792ns         4     198ns     168ns     255ns  cuDeviceGetUuid
                     0.00%     336ns         1     336ns     336ns     336ns  cuModuleGetLoadingMode
 ```
+
