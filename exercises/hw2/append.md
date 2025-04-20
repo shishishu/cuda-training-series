@@ -40,7 +40,6 @@ Done. Compute took 1.405855 seconds
 ```
 - block_size = 4
 ```
-```
 ==1509791== NVPROF is profiling process 1509791, command: ./matrix_mul_shared_var_thread
 Done. Compute took 3.575321 seconds
 Success!
